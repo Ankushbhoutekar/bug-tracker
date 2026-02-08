@@ -1,62 +1,72 @@
 # 🐞 Bug Tracker Application
 
-A full-stack Bug Tracking web application inspired by Jira.  
-Users can manage projects, create issues, and track issue status.
+A full-stack Bug Tracking application built using **MERN Stack** that allows users to manage projects and track issues efficiently.
 
 ---
 
- Live Demo
-Frontend: https://bug-tracker.vercel.app  
-Backend: https://bug-tracker-backend.onrender.com  
+## 🚀 Features
+
+- 🔐 User Authentication (Login & Register)
+- 📁 Create, View & Delete Projects
+- 🐛 Add Issues to Projects
+- 📊 Dashboard with Project & Issue Overview
+- 🔒 Protected Routes (JWT based)
+- 🎨 Clean UI with Sidebar Navigation
 
 ---
 
- 🛠 Tech Stack
+## 🛠️ Tech Stack
 
- Frontend
+**Frontend**
 - React (Vite)
-- React Router
 - Tailwind CSS
-- Recharts
+- React Router
 
-### Backend
+**Backend**
 - Node.js
 - Express.js
 - MongoDB
+- Mongoose
 - JWT Authentication
-
----
-
-## ✨ Features
-- User Authentication (Login/Register)
-- Protected Routes
-- Create & Manage Projects
-- Add Issues to Projects
-- Issue Status Tracking
-- Dashboard with Analytics Graph
-- Sidebar Navigation
-- Responsive UI
 
 ---
 
 ## 📸 Screenshots
 
-### Login
+### Login Page
 ![Login](screenshots/login.png)
 
 ### Dashboard
 ![Dashboard](screenshots/dashboard.png)
 
-### Projects
-![Projects](screenshots/projects.png)
-
-### Issues
+### Project Issues
 ![Issues](screenshots/issues.png)
 
 ---
 
-## ⚙️ Local Setup
+## 🌐 Live Demo
 
-```bash
-git clone https://github.com/<your-username>/bug-tracker.git
-cd bug-tracker
+Frontend:  
+👉 **(Will be added after deployment)**
+
+Backend API:  
+👉 **(Will be added after deployment)**
+
+---
+
+## ⚙️ Environment Variables
+
+Create a `.env` file in backend:
+
+```env
+PORT=5000
+MONGO_URI=your_mongodb_uri
+JWT_SECRET=your_secret_key
+
+
+
+🧑‍💻 Author
+Ankush Bhoutekar
+© 2026 All rights reserved
+
+
